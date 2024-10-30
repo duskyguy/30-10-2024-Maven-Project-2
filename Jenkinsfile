@@ -27,8 +27,8 @@ pipeline {
                sh "cp **/target/*.war /home/ivan/programms/tomcat-prod/webapps"
              }     
            }
-         }
-       }*/
+         }*/
+       }
     }
 } 
   
