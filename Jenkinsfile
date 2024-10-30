@@ -6,7 +6,8 @@ pipeline {
   stages{
        stage ('Build'){
         steps {
-          sh 'mvn clean package'
+                bat 'C:/Build/apache-maven-3.9.8/bin/mvn build'
+
         }
        /*  post {
            success {
